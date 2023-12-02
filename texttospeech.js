@@ -1,0 +1,1 @@
+javascript:(function(){  var selectedText = window.getSelection().toString().trim();  if (selectedText) {    var speech = new SpeechSynthesisUtterance(selectedText);    speech.lang = "en-US";    window.speechSynthesis.speak(speech);  } else {    alert("Please select some text on the page to convert to speech.");  }})();
