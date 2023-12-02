@@ -1,0 +1,1 @@
+javascript:(function(){  var text = document.body.innerText.trim();  var words = text.split(/\s+/);  var charCount = text.length;  var wordCount = words.length;  var alertText = "Word count: " + wordCount + "\nCharacter count: " + charCount;  alert(alertText);})();
