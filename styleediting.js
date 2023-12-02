@@ -1,0 +1,1 @@
+javascript:var color = prompt("Enter font color:");var size = prompt("Enter font size (in pixels):");if (color != null && size != null) {  document.body.contentEditable='true';  document.designMode='on';  document.execCommand('styleWithCSS', false, true);  document.execCommand('foreColor', false, color);  document.execCommand('fontSize', false, size);}void 0;
