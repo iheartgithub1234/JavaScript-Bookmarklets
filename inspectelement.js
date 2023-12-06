@@ -1,0 +1,1 @@
+javascript:(function() {   var devtools = document.createElement('script');  devtools.src = "https://cdn.jsdelivr.net/npm/eruda";  document.head.appendChild(devtools);  devtools.onload = function() { eruda.init() }})();
