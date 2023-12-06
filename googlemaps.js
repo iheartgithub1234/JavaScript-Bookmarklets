@@ -1,0 +1,1 @@
+javascript: (function () {  if (navigator.geolocation) {    navigator.geolocation.getCurrentPosition(function (position) {      window.open(        "https://maps.google.com/maps?q=" +          position.coords.latitude +          "," +          position.coords.longitude      );    });  } else {    alert("Geolocation is not supported by this browser.");  }})();
